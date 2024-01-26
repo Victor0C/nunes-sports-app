@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+Obs: Configure a URL da API em src/util/config.ts
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
