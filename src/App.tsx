@@ -1,19 +1,15 @@
-import { ChakraProvider } from '@chakra-ui/react';
-import './App.css'
-import { TableProducts } from './components/table';
-
-
+import { ChakraProvider } from "@chakra-ui/react";
+import "./App.css";
+import { TableProducts } from "./components/table";
 
 function App() {
   return (
     <ChakraProvider>
       <div className="container-fluid d-flex justify-content-center align-items-center flex-column my-container">
-        <TableProducts/>
+        <TableProducts />
       </div>
     </ChakraProvider>
-
-  )
+  );
 }
 
-export default App
-
+export default App;
